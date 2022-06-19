@@ -1,0 +1,72 @@
+.bg-img {
+  background-image: url("assets/home/background-home-desktop.jpg");
+  width: 100%;
+}
+
+.logo {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 55px;
+  top: 64px;
+}
+
+nav {
+  display: flex;
+ 
+}
+
+.line {
+  position: absolute;
+  width: 473px;
+  height: 1px;
+  left: 167px;
+  top: 88px;
+
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
+.routes {
+  position: absolute;
+  width: 790px;
+  height: 96px;
+  left: 610px;
+  top: 40px;
+
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(25.5485px);
+}
+
+.nav-wrap {
+    width: 692px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96px;
+}
+
+a{
+    
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    color: #ffffff;
+    margin:0 30px;
+    padding:37px 0px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:active {
+    border-bottom: 1px solid #ffffff;
+}
+
+a:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+
+
